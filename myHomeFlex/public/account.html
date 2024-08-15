@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/style.css" />
+    <style>
+        .account-container {
+            text-align: center;
+        }
+
+        .account-container > h2 {
+            margin: 2rem auto 1rem auto;
+        }
+
+        form > label {
+            font-size: 1.2rem;
+            font-weight: 500;
+            margin: 1rem auto;
+        }
+
+        form > input {
+            width: 15rem;
+            height: 1.5rem;
+            margin: 1rem 1rem;
+        }
+
+        #pw-input {
+            margin-left: 2rem;
+        }
+
+        .ac-btn-container {
+            position: relative;
+            left: 6%;
+        }
+
+        button {
+            color: white;
+            font-size: 1rem;
+            padding: 0.5rem 1rem;
+            border: none;
+            border-radius: 5%;
+            background-color: orange;
+        }
+
+    </style>
+    <title>My Account</title>
+</head>
+<body>
+    <nav class="nav-container">
+        <p class="logo">davidscontents.com</p>
+        <ul class="nav-list">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="./about.html">About Us</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+            <li><a href="./account.html">My Account</a></li>
+        </ul>
+        <div class="btn-container">
+            <button class="btn call-to-action"><a href="#">Book Now</a></button>
+            <button class="btn steps-to-take"><a href="#">5 Steps to take</a></button>
+        </div> 
+    </nav>
+    <div class="account-container" style="background-color: antiquewhite;">
+        <h1>My Account</h1>
+        <h2>Resister Now</h2>
+        <form method="get">
+            <label>E-mail:</label>
+            <input id="pw-input" name="email" placeholder="Enter email here">
+            <br />
+            <label>Password:</label>
+            <input name="password" placeholder="Enter password here">
+            <br />
+            <br />
+            <div class="ac-btn-container">
+                <button>Log-In</button>
+                <button>Sign-Up</button>
+            </div>
+        </form>
+    </div>
+    <footer style="margin-top: 7rem;">
+        Copyright reserved by davidscontents 2024
+    </footer>
+</body>
+</html>
